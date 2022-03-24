@@ -29,7 +29,8 @@ body {
                             font-weight: bold;
                         }
                         select,
-                        input[type="text"] {
+                        input[type="text"],
+                        input[type="date"] {
                             padding: 10px 5px;
                             border-radius: 5px;
                             outline: none;
@@ -48,7 +49,8 @@ body {
                             margin-left: 5px;
                         }
                         select.warning,
-                        input[type="text"].warning {
+                        input[type="text"].warning,
+                        input[type="date"].warning {
                             border-color: rgb(204, 82, 82);
                             color: rgb(204, 82, 82);
                         }

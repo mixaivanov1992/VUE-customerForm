@@ -23,7 +23,7 @@
             :resetStyle="resetStyle"
         />
     </div>
-    <div v-else-if="data.type === 'text'">
+    <div v-else-if="data.type === 'text' || data.type === 'date'">
         <InputText
             :data="data"
             :alias="alias"

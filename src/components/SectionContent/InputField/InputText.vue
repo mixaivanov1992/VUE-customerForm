@@ -25,10 +25,6 @@ export default {
                 if(new RegExp('^[0-9]+$').test(value) || value === ''){
                     this.state.value = value;
                 }
-            }else if(this.data.verification === 'date'){
-                if(/^\d{0,4}$|^\d{4}-0?$|^\d{4}-(?:0?[1-9]|1[012])(?:-(?:0?[1-9]?|[12]\d|3[01])?)?$/.test(value) || value === ''){
-                    this.state.value = value;
-                }
             }else{
                 this.state.value = value;
             }
